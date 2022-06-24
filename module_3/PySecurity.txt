@@ -1,0 +1,7 @@
+a USER can have many LINK_USER_ROLE(s)
+many LINK_USER_ROLE(s) can be assigned to one USER
+many LINK_USER_ROLE can be assigned to a ROLE
+a ROLE can have many LINK_ROLE_PERMISSION(s)
+many LINK_ROLE_PERMISSION(s) can be assigned to a PERMISSION
+a PERMISSION can have many LINK_ROLE_PERMISSION(s)
+

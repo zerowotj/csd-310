@@ -1,0 +1,3 @@
+one STUDENT has many ENROLLMENT(s)
+one ENROLLMENT has many COURSE(s)
+one STUDENT ENROLL(s) in many COURSE(s)

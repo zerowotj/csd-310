@@ -1,0 +1,39 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>200</x><y>20</y><w>100</w><h>30</h></coordinates><panel_attributes>Roles
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>10</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1.1
+m2=1.*
+owns many</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>80</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=2.1
+m2=2.1
+has</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>170</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=3.1
+m2=3.*
+has many</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>170</y><w>100</w><h>30</h></coordinates><panel_attributes>Dependents
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>450</y><w>100</w><h>30</h></coordinates><panel_attributes>Dependents
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>340</y><w>130</w><h>130</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+has many</panel_attributes><additional_attributes>10;10;100;110</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>350</y><w>50</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+has</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>330</y><w>130</w><h>140</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+owns many</panel_attributes><additional_attributes>100;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>450</y><w>100</w><h>30</h></coordinates><panel_attributes>Roles
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>170</y><w>90</w><h>50</h></coordinates><panel_attributes>User
+--
+        Name</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>80</y><w>90</w><h>50</h></coordinates><panel_attributes>User
+--
+        Name</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>10</y><w>90</w><h>50</h></coordinates><panel_attributes>User
+--
+        Name</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>310</y><w>90</w><h>50</h></coordinates><panel_attributes>User
+--
+        Name</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>80</y><w>90</w><h>70</h></coordinates><panel_attributes>Birthday
+--
+Month
+Day
+Year</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>450</y><w>90</w><h>70</h></coordinates><panel_attributes>Birthday
+--
+Month
+Day
+Year</panel_attributes><additional_attributes></additional_attributes></element></diagram>

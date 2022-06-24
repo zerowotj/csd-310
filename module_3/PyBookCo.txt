@@ -1,0 +1,5 @@
+a PUBLISHER can have many BOOKS
+many BOOKS can be assigned to one PUBLISHER
+many AUTHORS can be assigned to a PUBLISHER
+a PUBLISHER can have many AUTHORS
+many AUTHORS can have many BOOKS
