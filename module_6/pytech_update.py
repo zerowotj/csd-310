@@ -5,4 +5,4 @@ client = MongoClient(url)
 db = client.pytech
 
 collection = db["students"]
-db.collection.update_one({"student_id":1007}, {"$set": {"last_name": "Smith"}})
+db.students.update_one({"student_id":1007}, {"$set": {"last_name": "Smith"}})
