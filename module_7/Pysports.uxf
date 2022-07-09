@@ -1,0 +1,12 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>100</x><y>310</y><w>210</w><h>70</h></coordinates><panel_attributes>PLAYERS
+--
+player_id
+first_name
+last_name</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>90</y><w>210</w><h>70</h></coordinates><panel_attributes>TEAM
+--
+team_id
+team_name
+mascot</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>150</y><w>60</w><h>180</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+many</panel_attributes><additional_attributes>10;10;20;160</additional_attributes></element></diagram>
