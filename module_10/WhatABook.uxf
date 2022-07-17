@@ -1,0 +1,51 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>100</x><y>0</y><w>210</w><h>190</h></coordinates><panel_attributes>USER
+--
+user_id
+		INT
+		NOT NULL
+		AUTO_INCREMENT
+		PRIMARY KEY
+first_name
+		VARCHAR 75
+		NOT NULL
+Last_name
+		VARCHAR 75
+		NOT NULL</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>220</y><w>210</w><h>260</h></coordinates><panel_attributes>WISHLIST
+--
+wishlist_id
+		INT
+		NOT NULL
+		AUTO_INCREMENT
+		PRIMARY KEY
+user_id
+		INT
+		NOT NULL
+		AUTO_INCREMENT
+		FOREIGN KEY
+book_id
+		INT
+		NOT NULL
+		AUTO_INCREMENT
+		FOREIGN KEY</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>490</y><w>210</w><h>220</h></coordinates><panel_attributes>BOOK
+--
+book_id
+		INT
+		NOT NULL
+		AUTO_INCREMENT
+		PRIMARY KEY
+book_name
+		VARCHAR 200
+		NOT NULL
+details
+		VARCHAR(500)
+author
+		VARCHAR(200)
+		NOT NULL</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>740</y><w>210</w><h>140</h></coordinates><panel_attributes>STORE
+--
+store_id
+		INT
+		NOT NULL
+		PRIMARY KEY
+locale
+		VARCHAR (500)
+		NOT NULL</panel_attributes><additional_attributes></additional_attributes></element></diagram>
